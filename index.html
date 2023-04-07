@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>OvuCalculator</title>
+  </head>
+  <body>
+    <header>
+      <div>Logo</div>
+      <div>Rejestracja</div>
+      <div>Zaloguj</div>
+    </header>
+    <h1 class="plodne">0</h1>
+    <section>
+      Kalendarz do wpisywania, mona zaznaczy ikonki, ikonki dni plodnych i
+      przewidywanej miesiaczki
+    </section>
+    <form class="form hidden">
+      <div class="form__row">
+        <label class="form__label">Co ile dni krwawi ci z cipy?</label>
+        <input
+          class="form__input coIle"
+          id="co"
+          placeholder="tylko cyfry daunie"
+        />
+      </div>
+      <div class="form__row">
+        <label class="form__label">Ile dni krwawisz z cipy?</label>
+        <input class="form__input ile" placeholder="tylko cyfry daunie" />
+      </div>
+      <button class="form__btn">OK</button>
+    </form>
+
+    <footer>Warunki korzystania, kontakt.</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
